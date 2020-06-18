@@ -1,0 +1,62 @@
+/**
+ * @name Clean Pop
+ * @author couhie
+ * @version 0.0.1
+ * @description A clean and pop theme.
+ * @source https://github.com/couhie/discord-theme-clean-pop
+ * @website https://github.com/couhie
+ */
+
+/* Default */
+.da-mentionsBadge[aria-label] .da-numberBadge,
+.da-lowerBadge:not(.unread-badge) .da-numberBadge {
+  background-color: #E91E63 !important;
+  color: #FAFAFA;
+}
+
+/* Dark theme */
+/* For sidebar */
+.theme-dark {
+  --background-tertiary: #424242;
+  --text-muted: #9E9E9E;
+  --background-secondary: #263238;
+  --background-modifier-selected: #CDDC39;
+  --background-secondary-alt: #37474F;
+  --interactive-active: #EEEEEE;
+  --interactive-hover: #FF5722;
+  --background-modifier-hover: #37474F;
+  --background-primary: #263238;
+}
+
+.theme-dark .da-circleIconButton {
+  color: #795548;
+}
+
+.theme-dark .da-circleIconButton.da-selected {
+  background-color: #795548;
+  color: #FAFAFA;
+}
+
+.theme-dark .da-name {
+  --interactive-hover: #EEEEEE;
+}
+
+.theme-dark .da-button {
+  --background-modifier-selected: #455A64;
+}
+
+.theme-dark .da-selected {
+  --interactive-active: #212121;
+  --interactive-normal: #616161;
+  --text-muted: #616161;
+}
+
+/* Light theme */
+/* For chat */
+.theme-light {
+  --background-secondary: #ECEFF1;
+}
+
+.theme-light #MemberCount {
+  background-color: #ECEFF1;
+}
