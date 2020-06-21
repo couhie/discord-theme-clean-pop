@@ -45,7 +45,8 @@
   --background-modifier-selected: #455A64;
 }
 
-.theme-dark .da-selected {
+.theme-dark .da-selected,
+.theme-dark .da-wrapper[class*="modeSelected"] {
   --interactive-active: #212121;
   --interactive-normal: #616161;
   --text-muted: #616161;
